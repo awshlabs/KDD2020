@@ -5,15 +5,14 @@ In this workshop, Wenming Ye (AWS), Rachel Hu (AWS), and Miro Enev(Nvidia) offer
 
 Wenming Ye  (AWS),
 Rachel Hu   (AWS),
-Miro Enev   (Nvidia)
+Miro Enev   (Nvidia).
 
 Thank you for attending our session at KDD2020.
 
 If you are interested in our Research reward program, please see the link below. Or contact me directly. 
 https://aws.amazon.com/aws-ml-research-awards/
 
-
-## Agenda 
+## Agenda
 
 1. 08:45am  Welcome, setup.
 1. 09:00am  Amazon SageMaker Overview.
@@ -33,16 +32,16 @@ Amazon SageMaker is a fully-managed service that enables developers and data sci
 
 ## Prerequisites
 
-You will need a Laptop.  We recommend that you have an extra Screen such as a Phone, or IPad. 
+You will need a Laptop.  We recommend that you have an extra Screen such as a Phone, or IPad.
 
 **Slides**
 
 Available Soon.
 
 ### AWS Account
-AWS account is not required for this Lab, you will be provided with a HashURL to access a pre-provisioned AWS environment. 
+AWS account is not required for this Lab, you will be provided with a HashURL to access a pre-provisioned AWS environment.
  
 
 ## License
 
-The contents of this workshop are licensed under the Apache 2.0 License. 
+The contents of this workshop are licensed under the Apache 2.0 License.
