@@ -20,9 +20,9 @@ https://aws.amazon.com/aws-ml-research-awards/
 1. 09:40am  BERT and Transformer Overview
 1. 10:00am 10 min Break
 1. 10:10am Transfer learning and fine tuning  
-1. 10:20am Hands-on-lab: Accelerated training and fine tuning with NVIDIA NeMo ToolKit and Amazon SageMaker.
+1. 10:20am Hands-on-lab: Accelerated training and fine tuning with GluonNLP Amazon SageMaker.
 1. 11:00am 10 min Break
-1. 11:10am Hands-on-lab: Model Deployment.
+1. 11:10am Hands-on-lab: Model Deployment 
 1. 11:40am Discussions
 1. 11:50am Conclusion
 
@@ -40,7 +40,6 @@ Available Soon.
 
 ### AWS Account
 AWS account is not required for this Lab, you will be provided with a HashURL to access a pre-provisioned AWS environment.
- 
 
 ## License
 
