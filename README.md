@@ -43,7 +43,7 @@ The contents of this workshop are licensed under the Apache 2.0 License.
 
 ## Live Lab Instructions: 
 
-1. Got to Events engine website, on team dashboard, click on AWS Console.
+1. Goto Events engine website (will be given during live event), on team dashboard, click on AWS Console. If you are using your own account, skip to step 3.
 1. Now click on Open AWS Console.  Find, and Click on SageMaker Service link on the main Page. 
 1. On the left side menu, go down to Notebook, select submenu Notebook instances. Now, click on the orange Create notebook instance Button.
 1. Pick a notebook instance name in the first text box.
