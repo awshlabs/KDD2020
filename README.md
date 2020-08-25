@@ -1,4 +1,4 @@
-# KDD2020 Put Deep Learning to work: Accelerate Deep Learning through AWS EC2 and ML Services  (Tentatively 8/25 at 9AM PDT)
+# KDD2020 Put Deep Learning to Work: Accelerate Deep Learning through AWS SageMaker and ML Services  (8/25 at 9AM PDT)
 # Abstract
 Deploying deep learning (DL) projects are becoming increasingly more pervasive at enterprises and startups alike. At Amazon, Machine Learning University (MLU)-trained engineers are taking DL to every aspect of Amazon’s businesses, beyond just Amazon Go, Alexa, and Robotics.
 In this workshop, Wenming Ye (AWS), Rachel Hu (AWS), and Miro Enev(Nvidia) offer a practical next step in DL learning with instructions, and hands-on labs using the latest Nvidia GPUs and AWS Inferentia. You will explore the current trends powering AI/DL adoption, powerful new GPU/AWS Inferentia accelerator instances, distributed training and inference optimization in neural networks.
@@ -14,17 +14,13 @@ https://aws.amazon.com/aws-ml-research-awards/
 
 ## Agenda
 
-1. 08:45am  Welcome, setup.
-1. 09:00am  Amazon SageMaker Overview.
-1. 09:20am  D2l.ai NLP hands-on mini warm-up labs [d2l.ai](http://d2l.ai) Chap. 10.3.
-1. 09:40am  BERT and Transformer Overview
-1. 10:00am 10 min Break
-1. 10:10am Transfer learning and fine tuning  
-1. 10:20am Hands-on-lab: Accelerated training and fine tuning with NVIDIA NeMo ToolKit and Amazon SageMaker.
-1. 11:00am 10 min Break
-1. 11:10am Hands-on-lab: Model Deployment.
-1. 11:40am Discussions
-1. 11:50am Conclusion
+1. 9:00 Welcome and Logistics
+1. 9:05  Amazon AI and SageMaker Overview
+1. 9:40  BERT and Transformer
+1. 10:30 Lab: Training/FineTuning Q&A model 
+1. 	(10 min break during model training)
+1. 11:15 Lab: Model Deployment
+1. 11:30 Nemo Demo & Conclusion
 
 
 Amazon SageMaker is a fully-managed service that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at any scale. Amazon EC2 P3 instances deliver the highest performance compute in the cloud, are cost-effective, support all major machine learning frameworks, and are available globally. In this workshop, you'll create a SageMaker notebook instance and work through sample Jupyter notebooks that demonstrate some of the many features of SageMaker and how Amazon EC2 P3 is used to accelerate machine learning model training.
@@ -32,7 +28,7 @@ Amazon SageMaker is a fully-managed service that enables developers and data sci
 
 ## Prerequisites
 
-You will need a Laptop.  We recommend that you have an extra Screen such as a Phone, or IPad.
+You will need a Laptop.  We recommend that you have an extra Screen such as a Phone, or IPad, if available.
 
 **Slides**
 
@@ -40,8 +36,22 @@ Available Soon.
 
 ### AWS Account
 AWS account is not required for this Lab, you will be provided with a HashURL to access a pre-provisioned AWS environment.
- 
 
 ## License
 
 The contents of this workshop are licensed under the Apache 2.0 License.
+
+## Live Lab Instructions: 
+
+1. Goto Events engine website (will be given during live event), on team dashboard, click on AWS Console. If you are using your own account, skip to step 3.
+1. Now click on Open AWS Console.  Find, and Click on **SageMaker** Service link on the mainpage. 
+1. On the left side menu, go down to Notebook, select submenu item Notebook instances. Now, click on the orange Create notebook instance Button.
+1. Pick a notebook instance name in the first text box.
+1. For notebook instance type, select ml.c5.2xlarge.  
+1. Under Additional Configuration, Set volume size to be **50 GB**. 
+1. Under Git repositories, select Clone a Public Git.... Then, enter: https://github.com/goldmermaid/KDD-2020 in the text box.
+1. Click on Open Jupyter when the status turns Green "In Service", click on Open Jupyter. 
+1. Open bert_pytorch_finetuning.ipynb in KDD-2020/bert_finetuning_kdd directory. 
+
+
+
