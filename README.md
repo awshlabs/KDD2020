@@ -50,6 +50,8 @@ The contents of this workshop are licensed under the Apache 2.0 License.
 1. For notebook instance type, select ml.c5.2xlarge.  
 1. Under Additional Configuration, Set volume size to be **50 GB**. 
 1. Under Git repositories, select Clone a Public Git.... Then, enter: https://github.com/goldmermaid/KDD-2020 in the text box.
+1. Click on Open Jupyter when the status turns Green "In Service", click on Open Jupyter. 
+1. Open bert_pytorch_finetuning.ipynb in KDD-2020/bert_finetuning_kdd directory. 
 
 
 
